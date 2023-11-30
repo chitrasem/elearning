@@ -1,5 +1,5 @@
 import React from 'react';
-import coursesData from './Courses.json'; // Import the Courses.json file
+//import coursesData from './Courses.json'; // Import the Courses.json file
 //import './CourseDetail.css'; // Import your CSS file if needed
 
 function CourseDetail() {
