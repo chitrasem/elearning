@@ -26,6 +26,18 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+                <a className="nav-link" href="/courses">{t('home')}</a>
+            </li>
+            <li className="nav-item">
+                <a className="nav-link" href="/">{t('about')}</a>
+            </li>
+            <li className="nav-item">
+                <a className="nav-link" href="/">{t('service')}</a>
+            </li>
+            <li className="nav-item">
+                <a className="nav-link" href="/">{t('contact')}</a>
+            </li>
               <li className="nav-item"> 
                 <button className="btn btn-link" onClick={() => changeLanguage('en')}>
                   <img src={flagEn} alt="English" className="flag-icon" style={flagIconStyle} />

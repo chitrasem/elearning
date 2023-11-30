@@ -1,4 +1,9 @@
 {
+    "app-name" : "E-Learning",
+    "home" : "Home",
+    "about" : "About",
+    "services" : "Services",
+    "contact" : "Contact"
 
     
 }
